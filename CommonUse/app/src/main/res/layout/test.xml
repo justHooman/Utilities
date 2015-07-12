@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    tools:context="com.hysterics.delhishop.AccountSetting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center|left"
+                android:paddingLeft="16dp"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="hello_user"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/user_account_information"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginLeft="24dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:drawablePadding="24dp"
+                android:gravity="center|left"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="account_information"
+                android:textSize="15sp"/>
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="48dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginLeft="24dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:drawablePadding="24dp"
+                android:gravity="center|left"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:text="Account test"
+                android:textSize="15sp"/>
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="48dp"
+                android:background="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
