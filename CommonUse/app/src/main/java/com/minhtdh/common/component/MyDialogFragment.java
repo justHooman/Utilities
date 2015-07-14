@@ -1,5 +1,9 @@
 package com.minhtdh.common.component;
 
+import java.lang.ref.WeakReference;
+
+import com.minhtdh.common.R;
+
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -11,10 +15,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.minhtdh.tvo.R;
-
-import java.lang.ref.WeakReference;
 
 public class MyDialogFragment extends DialogFragment {
 	public static final int DIALOG_LOADING = 0;

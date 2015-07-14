@@ -1,15 +1,15 @@
 package com.minhtdh.common.component;
 
+import java.lang.ref.WeakReference;
+
+import com.minhtdh.common.util.BitmapUtil;
+
 import android.graphics.Point;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
-
-import com.tinhvan.common.util.BitmapUtil;
-
-import java.lang.ref.WeakReference;
 
 public class DecodeTask extends AsyncTask<Void, Void, Drawable> {
 	final WeakReference<ImageView> weak_ref_view;

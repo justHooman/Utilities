@@ -1,11 +1,11 @@
 package com.minhtdh.common.util;
 
+import com.minhtdh.common.component.SimpleDismissDialogListener;
+
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
-
-import com.tinhvan.common.component.SimpleDismissDialogListener;
 
 /**
  * class provide function to process action

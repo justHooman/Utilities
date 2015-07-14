@@ -1,5 +1,8 @@
 package com.minhtdh.common;
 
+import com.minhtdh.common.component.MyDialogFragment;
+import com.minhtdh.common.util.ConversionUtil;
+
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.os.AsyncTask;
@@ -10,9 +13,6 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.View;
-
-import com.tinhvan.common.component.MyDialogFragment;
-import com.tinhvan.common.util.ConversionUtil;
 
 public class BaseFragmentActvity extends FragmentActivity {
 	
